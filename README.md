@@ -28,4 +28,15 @@ An announcement with the presentation links will be posted during the presentati
 ### Chosen Sorting Algorithm
 - Selection Sort
 
+## 1. Research Report
+
+This Markdown file will be exported to PDF using Obsidian or Marktext:
+
+[Research_Report.md](Research_Report.md)
+
+## 2. Powerpoint Presentation
+
+This Markdown file is just an outline of the presentation slide deck.  It could be exported as a .pptx file from Obidian, but is intended as a baseline document only.
+
+[Presentation.md](Presentation.md)
 
