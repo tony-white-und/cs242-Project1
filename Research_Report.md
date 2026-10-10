@@ -1,6 +1,3 @@
----
-sorting_algorithm: Selection Sort
----
 # Selection Sort Research Report
 
 ## Executive Summary
@@ -13,11 +10,11 @@ sorting_algorithm: Selection Sort
 
 ### Big O
 
-The function $f(n) = O(g(n)) \iff \exists$ `two Constants C and k such that` $f(n) <= C \cdot g(n) \forall n >= k$
+The function $f(n) = O(g(n)) \iff \exists$ two Constants $C$ and $k$ such that $f(n) <= C \cdot g(n) \forall n >= k$
 
 ### Big $\Omega$ 
 
-The function $f(n) = \Omega(g(n)) \iff \exists$ `two Constants C and k such that:` $f(n) >= C \cdot g(n) \forall n >= k$
+The function $f(n) = \Omega(g(n)) \iff \exists$ two Constants $C$ and $k$ such that: $f(n) >= C \cdot g(n) \forall n >= k$
 
 ### Big $\Theta$
 
