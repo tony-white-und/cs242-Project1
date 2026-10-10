@@ -57,7 +57,32 @@ A --> D
 ```
 
 ### Time Function Definition
+```c
+voic function(int n[]) {
+	int tmp, lowest_idx;                    // 2
+	for (int i = 0, i < sizeof(n), i++) {   // n + 1
+		tmp = n[i]                          // n
+		lowest_idx = i                      // n
+		for (j = i, j < sizeof(n), j++)     // n * n + 1
+			if n[j] < n[lowest_idx]         // n * n
+				lowest_idx = j              // n * n
+		l[i] = l[lowest_idx]                // n
+		l[lowest_idx] = tmp	                // n
+	}
+}
+```
 
+$T(n) = 2 + (n + 1) + n + n + (n * (n + 1)) + n^2 + n^2 + n + n$
+
+$T(n) = 3n^2 + 6n + 3$
+
+#### Asymptotic Analysis Rule #1
+
+$T(n) = 3n^2$
+
+#### Asymptotic Analysis Rule #2
+
+$T(n) = n^2$
 ### Three Cases
 
 #### Big O
