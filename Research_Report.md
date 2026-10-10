@@ -4,7 +4,7 @@
 
 ## Algorithm
 
-### <u>Selection Sort</u>
+### <ins>Selection Sort</ins>
 1.  Get a list of unsorted elements `LIST`
 2. Iterate through the list storing the current index as `CURRENT`.
 3. Store the value of the `CURRENT` index in `TEMP`
@@ -30,7 +30,7 @@ for CURRENT from 0 to length(LIST) do
 endfor
 return LIST
 ```
-### Implementation Example
+### Implementation Example (Python)
 ```python
 def selection_sort(l):
     for c in range(len(l)):
