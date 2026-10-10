@@ -8,7 +8,6 @@
 
 ## Asymptotic Analysis
 
-### Three Cases
 ```mermaid
 flowchart TD
 A(Asymptotic Analysis - How to analyze the time complexity)
@@ -19,6 +18,10 @@ A --> B
 A --> C
 A --> D
 ```
+
+### Time Function Definition
+
+### Three Cases
 
 #### Big O
 
@@ -32,3 +35,4 @@ The function $f(n) = \Omega(g(n)) \iff \exists$ two Constants $C$ and $k$ such t
 
 The function $f(n) = \Theta(g(n)) \iff \exists$  three Constants $C_1$, $C_2$ ,and $k$ such that: $C_1 \cdot g(n) <= f(n) <= C_2 \cdot g(n) \quad \forall n >= k$
 
+### Asmyptotic Notations
