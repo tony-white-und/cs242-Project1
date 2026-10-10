@@ -15,7 +15,7 @@ This repository is for files related to CSCI242 Project1.
 
 ## Project Notes
 
-![](Project%201.pdf)
+[Project 1.pdf](Project%201.pdf)
 
 **Note**: You will record your presentation (15–20 minutes) and post it along with your slides. Instead of a live session, you will facilitate a discussion board thread for your project. This means responding to your classmates’ questions, addressing feedback, and encouraging discussion on your topic throughout the week.
 
