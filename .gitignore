@@ -1,24 +1,3 @@
-# -----------------------------------------------------------------------------
-# Obsidian - Core Configuration & Multi-User Collaboration
-# -----------------------------------------------------------------------------
-
-# ALWAYS ignore individual workspace layouts to prevent constant merge conflicts.
-# This file tracks open tabs, active files, and sidebar states per user.
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-
-# OPTIONAL: Ignore graph view settings if users prefer their own local visual setup
-.obsidian/graph.json
-
-# OPTIONAL: Ignore community plugin states if users manage their own active plugins
-# (Uncomment the line below if you don't want to force identical plugin states)
-# .obsidian/community-plugins.json
-
-
-# -----------------------------------------------------------------------------
-# Operating System & System-Specific Files
-# -----------------------------------------------------------------------------
-
 # macOS
 .DS_Store
 .AppleDouble
@@ -36,7 +15,5 @@ ehthumbs_vista.db
 # -----------------------------------------------------------------------------
 # Cache and Local Storage
 # -----------------------------------------------------------------------------
-.obsidian/cache/
-.obsidian/plugins/*/.git
-.obsidian-git-data
+.obsidian/
 .trash/
