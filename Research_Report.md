@@ -9,17 +9,15 @@
 2. Iterate through the list storing the current index as `CURRENT`.
 3. Store the value of the `CURRENT` index in `TEMP`
 4. Iterate through the remaining items storing the index of the lowest value as `LOWEST_IDX` 
-5. Move the value of the item at `LOWEST_IDX` to the item at `CURRENT`
-   `LIST[CURRENT] = LIST[LOWEST_IDX]`
-6. Move the value `TEMP` to the item at `LOWEST_IDX`
-   `LIST[LOWEST_IDX] = TEMP`
+5. Move the value of the item at `LOWEST_IDX` to the item at `CURRENT` <br>`LIST[CURRENT] = LIST[LOWEST_IDX]`
+6. Move the value `TEMP` to the item at `LOWEST_IDX` <br>`LIST[LOWEST_IDX] = TEMP`
 
 ### Pseudocode
 ```
 input LIST
 for CURRENT from 0 to length(LIST) do
-	TEMP = LIST[CURRENT]
-	LOWEST_IDX = CURRENT
+	TEMP <- LIST[CURRENT]
+	LOWEST_IDX <- CURRENT
     for SEARCH from CURRENT to length(LIST) do
 	    if LIST[SEARCH] < LIST[LOWEST_IDX] then
 		    LOWEST_IDX <- SEARCH
